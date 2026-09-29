@@ -79,6 +79,6 @@ verl 依赖安装
 
     git clone -b release/v0.9.1 https://github.com/verl-project/verl.git
     cd verl
-    pip install -e .
     pip install -r requirements-npu.txt
+    pip install -v -e . --no-deps
 
